@@ -5,10 +5,7 @@ main:
   
   - title: "论文"
     url: /publications/
-
-  - title: "Talks"
-    url: /talks/    
-
+ 
   - title: "教学"
     url: /teaching/    
         
