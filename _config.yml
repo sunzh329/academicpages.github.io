@@ -78,38 +78,10 @@ author:
   avatar           : "profile.png"
   bio              : "博士，副教授"
   location         : "北京"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-
-  email            :
+  employer         : "北京工业大学"
+  
+  email            : "sunzh@bjut.edu.cn"
   researchgate     :  "https://www.researchgate.net/profile/Zhonghua-Sun-5"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : #"academicpages"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         :
-  orcid            : #"http://orcid.org/yourorcidurl"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : #"replacethistwitterhandle"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
-
 
 # Reading Files
 include:
@@ -185,7 +157,7 @@ collections:
 
 # Defaults
 defaults:
-  # _posts
+  # _新闻
   - scope:
       path: ""
       type: posts
@@ -196,14 +168,14 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
+  # _项目
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _教学
   - scope:
       path: ""
       type: teaching
@@ -212,7 +184,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _publications
+  # _论文
   - scope:
       path: ""
       type: publications
@@ -221,7 +193,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _个人简介
   - scope:
       path: ""
       type: portfolio
@@ -230,14 +202,6 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
 
 # Sass/SCSS
 sass:
